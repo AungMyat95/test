@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="venobox/venobox.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-4">
+            <div class="">
+                <div class="my-3">
+                    <a class="venobox" data-gall="aa" href="../Image/CTO-6.jpg">
+                        <img src="../Image/CTO-6.jpg" class="img-fluid" alt="image alt"/>
+                    </a>
+                </div>
+                <div class="my-3">
+                    <a class="venobox" data-gall="aa" href="../Image/CTO-7.jpg">
+                        <img src="../Image/CTO-7.jpg" class="img-fluid" alt="image alt"/>
+                    </a>
+                <div class="my-3">
+                    <a class="venobox" data-gall="aa" href="../Image/CTO-8.jpg">
+                        <img src="../Image/CTO-8.jpg" class="img-fluid" alt="image alt"/>
+                    </a>
+                </div>
+                <div class="my-3">
+                    <a class="venobox" data-gall="aa" href="../Image/CTO-9.jpg">
+                        <img src="../Image/CTO-9.jpg" class="img-fluid" alt="image alt"/>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="venobox/venobox.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('.venobox').venobox({
+            framewidth : '400px',                            // default: ''
+            frameheight: 'auto',                            // default: ''
+            border     : '1px',                             // default: '0'
+            bgcolor    : 'red',                          // default: '#fff'
+            titleattr  : 'data-title',                       // default: 'title'
+            numeratio  : true,                               // default: false
+            infinigall : true,                               // default: false
+            share      : ['facebook', 'twitter', 'download'] // default: []
+        });
+    });
+</script>
+
+</body>
+</html>
